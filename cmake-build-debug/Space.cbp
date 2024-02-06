@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Space"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Space">
+				<Option output="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Space.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/SFML/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 Space"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Space/fast">
+				<Option output="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Space.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/SFML/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 Space/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/headers/Asteroid.h">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/headers/Bullet.h">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/headers/Controller.h">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/headers/GameLogic.h">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/headers/Ship.h">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/headers/View.h">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/src/Asteroid.cpp">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/src/Bullet.cpp">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/src/Controller.cpp">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/src/GameLogic.cpp">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/src/Ship.cpp">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/src/View.cpp">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/src/main.cpp">
+			<Option target="Space"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/SUPERKOMP/CLionProjects/spaceShooterSFML/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
