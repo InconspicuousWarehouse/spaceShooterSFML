@@ -11,16 +11,12 @@ Aby uruchomić grę, wymagane jest posiadanie zainstalowanej biblioteki SFML ora
    git clone https://github.com/InconspicuousWarehouse/spaceShooterSFML.git
 2. **Środowisko MinGW**: Upewnij się, że masz zainstalowane i poprawnie skonfigurowane środowisko MinGW na swoim komputerze. Możesz pobrać MinGW ze strony [MinGW.org](https://osdn.net/projects/mingw/).
 3. **SFML**: Pobierz i zainstaluj bibliotekę SFML. Możesz pobrać SFML ze strony [SFML website](https://www.sfml-dev.org/download.php).
-4. **Kompilacja za pomocą CMake**: Przejdź do katalogu z pobranym repozytorium i utwórz katalog build. Następnie przejdź do katalogu build i skompiluj grę za pomocą CMake, wpisując następujące komendy w terminalu:
--   cd spaceShooterSFML
--   mkdir build
--   cd build
--   cmake ..
--   cmake --build .
+4. **Kompilacja za pomocą CMake**: Przejdź do katalogu z pobranym repozytorium i utwórz katalog build. Następnie przejdź do katalogu build i skompiluj grę za pomocą CMake.
 ## Uruchomienie gry
 Po skompilowaniu gry, możesz uruchomić ją z poziomu terminala lub Eksploratora plików, otwierając plik wykonywalny. Jeśli znajdujesz się w katalogu, gdzie zbudowany został plik wykonywalny, możesz użyć komendy `./Space` w terminalu. Jeśli chcesz uruchomić grę z innego miejsca, podaj pełną ścieżkę do pliku wykonywalnego.
 
 Lub możesz przeprowadzić kompilację i uruchomienie gry w środowisku takim jak CLion lub innym środowisku programistycznym (IDE).
+
 ## Jak grać
 - Poruszanie się statkiem odbywa się za pomocą klawiszy (w, s, a, d) (góra, dół, lewo, prawo).
 - Strzelać można poprzez naciskanie/przytrzymanie lewego przycisku myszy lub spacji. (Przytrzymanie lub naciskanie odpowiednich przycisków będzie powodować wystrzelenie pocisków z ograniczonym odstępem czasu między nimi).
@@ -41,12 +37,7 @@ To run the game, you need to have the SFML library installed as well as the MinG
 git clone https://github.com/InconspicuousWarehouse/spaceShooterSFML.git
 2. **MinGW Environment**: Make sure you have MinGW installed and properly configured on your computer. You can download MinGW from [MinGW.org](https://osdn.net/projects/mingw/).
 3. **SFML**: Download and install the SFML library. You can download SFML from the [SFML website](https://www.sfml-dev.org/download.php).
-4. **Compilation with CMake**: Navigate to the directory with the downloaded repository and create a build directory. Then go to the build directory and compile the game using CMake by entering the following commands in the terminal:
--   cd spaceShooterSFML
--   mkdir build
--   cd build
--   cmake ..
--   cmake --build .
+4. **Compilation with CMake**: Navigate to the directory with the downloaded repository and create a build directory. Then go to the build directory and compile the game using CMake.
 
 ## Running the Game
 After compiling the game, you can run it from the terminal or File Explorer by opening the executable file. If you are in the directory where the executable file was built, you can use the command `./Space` in the terminal. If you want to run the game from a different location, provide the full path to the executable file.
